@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeopleManagementUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe49d8c446a87814e576097ce15029ba3d247548")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a355181e92edec54b9354277120aaecb71539bab")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeopleManagementUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeopleManagementUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

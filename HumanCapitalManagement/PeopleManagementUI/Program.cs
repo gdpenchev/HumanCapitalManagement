@@ -1,8 +1,23 @@
+using PeopleManagementUI.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddHttpClient();
-builder.Services.AddSession();
+//builder.Services.AddHttpClient();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddHttpClient("AuthenticationClient");
+builder.Services.AddHttpClient("EmployeeClient");
+
+builder.Services.AddScoped<IApiClientFactory, ApiClientFactory>();
 
 var app = builder.Build();
 
@@ -16,7 +31,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-app.UseAuthentication();
+//app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseSession();

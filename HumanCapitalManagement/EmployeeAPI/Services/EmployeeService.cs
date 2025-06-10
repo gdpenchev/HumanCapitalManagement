@@ -30,7 +30,7 @@ namespace EmployeeAPI.Services
 
         public IEnumerable<Employee> GetAllEmployees() => _employees;
 
-        public Employee Update(int employeeId, Employee updatedEmployee)
+        public Employee Update(int employeeId, Employee updatedEmployee, string role)
         {
             var employee = _employees.FirstOrDefault(em => em.Id == employeeId);
             if (employee is null) return null;
@@ -39,7 +39,8 @@ namespace EmployeeAPI.Services
             employee.LastName = updatedEmployee.LastName;
             employee.Position = updatedEmployee.Position;
             employee.Department = updatedEmployee.Department;
-            employee.Salary = updatedEmployee.Salary;
+
+            if (role is "hradmin") employee.Salary = updatedEmployee.Salary;
 
             return employee;
         }

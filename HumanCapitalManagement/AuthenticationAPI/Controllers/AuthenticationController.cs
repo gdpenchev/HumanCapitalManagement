@@ -1,7 +1,6 @@
 ﻿using AuthenticationAPI.Models;
 using AuthenticationAPI.Repositories;
 using AuthenticationAPI.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthenticationAPI.Controllers
@@ -22,12 +21,14 @@ namespace AuthenticationAPI.Controllers
         [HttpPost("login")]
         public IActionResult Login(LoginRequest loginRequest)
         {
+            if (loginRequest is null) return BadRequest("Login data is not full");
+
             var user = _userRepository.ValidateUser(loginRequest.Username, loginRequest.Password);
 
-            if (user == null)
-                return Unauthorized();
+            if (user == null) return Unauthorized();
 
             var token = _tokenService.GenerateJwtToken(user);
+
             return Ok(new { token });
         }
     }

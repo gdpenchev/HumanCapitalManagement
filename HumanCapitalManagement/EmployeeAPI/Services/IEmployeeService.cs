@@ -6,7 +6,7 @@ namespace EmployeeAPI.Services
     {
         IEnumerable<Employee> GetAllEmployees();
         Employee Create(Employee employee);
-        Employee Update(int employeeId, Employee updatedEmployee);
+        Employee Update(int employeeId, Employee updatedEmployee, string role);
         bool Delete(int employeeId);
     }
 }

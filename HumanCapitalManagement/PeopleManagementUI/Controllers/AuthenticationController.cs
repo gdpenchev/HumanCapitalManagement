@@ -1,18 +1,18 @@
-﻿using Microsoft.AspNetCore.DataProtection.Repositories;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using PeopleManagementUI.Models;
+using PeopleManagementUI.Services;
 
 namespace PeopleManagementUI.Controllers
 {
     public class AuthenticationController : Controller
     {
-        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IApiClientFactory _apiClientFactory;
         private readonly IConfiguration _configuration;
 
-        public AuthenticationController(IHttpClientFactory httpClientFactory, IConfiguration configuration)
+        public AuthenticationController(IApiClientFactory apiClientFactory, IConfiguration configuration)
         {
             _configuration = configuration;
-            _httpClientFactory = httpClientFactory;
+            _apiClientFactory = apiClientFactory;
         }
 
         [HttpGet]
@@ -21,7 +21,7 @@ namespace PeopleManagementUI.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
-            var client = _httpClientFactory.CreateClient();
+            var client = _apiClientFactory.CreateAuthenticationClient();
             var resposne = await client.PostAsJsonAsync(_configuration["Endpoints:Authentication"], model);
 
             if (!resposne.IsSuccessStatusCode)

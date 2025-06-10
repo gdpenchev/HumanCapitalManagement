@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\employeeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\employeeapi\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\employeeapi\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,24 +27,68 @@
       "RelativeMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\authenticationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\authenticationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\employeeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\authenticationapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C36911-9A20-47E7-A5B8-B5EE21F0237D}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\employeeapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\employeeapi\\employeeapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A14F2336-99E4-4F40-A2C7-881BB25C14AF}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\employeeapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|c:\\users\\kashona\\documents\\humancapitalmanagement\\humancapitalmanagement\\humancapitalmanagement\\peoplemanagementui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}|PeopleManagementUI\\PeopleManagementUI.csproj|solutionrelative:peoplemanagementui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,8 +98,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "PeopleManagementUI\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:18:11.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "PeopleManagementUI\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA9wCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:18:08.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:14:20.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:14:18.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Models\\User.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:14:13.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Models\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:14:11.013Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -88,217 +186,204 @@
               "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\AuthenticationController.cs",
               "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "AuthenticationAPI\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwB4AAAAjAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAcwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:48:06.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Services\\ITokenService.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Services\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Services\\ITokenService.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Services\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:46:59.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:39:03.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:37:49.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\appsettings.json",
-              "RelativeToolTip": "AuthenticationAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-09T06:55:07.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Program.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Program.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAcwBwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T06:44:51.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Services\\TokenService.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Services\\TokenService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAcwCMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T06:40:06.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Models\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Models\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Models\\LoginRequest.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Models\\LoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T06:34:38.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\Models\\User.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T06:29:46.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthenticationAPI",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\AuthenticationAPI.csproj",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\AuthenticationAPI.csproj",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\AuthenticationAPI\\AuthenticationAPI.csproj",
-              "RelativeToolTip": "AuthenticationAPI\\AuthenticationAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-09T06:29:19.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EmployeeAPI",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\EmployeeAPI.csproj",
-              "RelativeDocumentMoniker": "EmployeeAPI\\EmployeeAPI.csproj",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\EmployeeAPI.csproj",
-              "RelativeToolTip": "EmployeeAPI\\EmployeeAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-06T16:59:45.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Program.cs",
-              "RelativeDocumentMoniker": "EmployeeAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Program.cs",
-              "RelativeToolTip": "EmployeeAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T15:40:14.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "EmployeeAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\appsettings.json",
-              "RelativeToolTip": "EmployeeAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-06T15:38:45.968Z",
+              "WhenOpened": "2025-06-10T05:13:57.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "EmployeeAPI\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "EmployeeAPI\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PeopleManagementUI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T14:57:03.323Z",
+              "WhenOpened": "2025-06-10T05:13:07.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "EmployeeAPI\\Services\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "EmployeeAPI\\Services\\EmployeeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAzAAAA",
+              "DocumentIndex": 12,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Models\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Models\\TokenResponse.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Models\\TokenResponse.cs",
+              "RelativeToolTip": "PeopleManagementUI\\Models\\TokenResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T14:52:26.516Z",
+              "WhenOpened": "2025-06-10T05:13:02.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Services\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "EmployeeAPI\\Services\\IEmployeeService.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Services\\IEmployeeService.cs",
-              "RelativeToolTip": "EmployeeAPI\\Services\\IEmployeeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "DocumentIndex": 13,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "PeopleManagementUI\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T14:52:06.832Z",
+              "WhenOpened": "2025-06-10T05:13:00.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "PeopleManagementUI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:12:57.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Models\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Models\\EmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Models\\EmployeeViewModel.cs",
+              "RelativeToolTip": "PeopleManagementUI\\Models\\EmployeeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:12:55.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Models\\Employee.cs",
-              "RelativeToolTip": "EmployeeAPI\\Models\\Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PeopleManagementUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T05:11:16.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "PeopleManagementUI\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T05:10:16.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PeopleManagementUI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T05:10:33.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "PeopleManagementUI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T05:10:31.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PeopleManagementUI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T05:10:04.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "PeopleManagementUI\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T05:10:01.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "EmployeeAPI\\Services\\EmployeeService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA2wC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T14:51:21.84Z",
+              "WhenOpened": "2025-06-09T19:17:52.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\appsettings.json",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\appsettings.json",
+              "RelativeToolTip": "PeopleManagementUI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-09T19:16:48.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "PeopleManagementUI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\PeopleManagementUI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "PeopleManagementUI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAA9wF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:16:36.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Kashona\\Documents\\HumanCapitalManagement\\HumanCapitalManagement\\HumanCapitalManagement\\EmployeeAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeAPI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAcwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:16:25.942Z",
               "EditorCaption": ""
             }
           ]

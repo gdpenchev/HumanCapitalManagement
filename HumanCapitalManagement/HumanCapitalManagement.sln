@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAPI", "EmployeeAPI\EmployeeAPI.csproj", "{A14F2336-99E4-4F40-A2C7-881BB25C14AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeAPI", "EmployeeAPI\EmployeeAPI.csproj", "{A14F2336-99E4-4F40-A2C7-881BB25C14AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationAPI", "AuthenticationAPI\AuthenticationAPI.csproj", "{65C36911-9A20-47E7-A5B8-B5EE21F0237D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationAPI", "AuthenticationAPI\AuthenticationAPI.csproj", "{65C36911-9A20-47E7-A5B8-B5EE21F0237D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleManagementUI", "PeopleManagementUI\PeopleManagementUI.csproj", "{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{65C36911-9A20-47E7-A5B8-B5EE21F0237D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65C36911-9A20-47E7-A5B8-B5EE21F0237D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65C36911-9A20-47E7-A5B8-B5EE21F0237D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6607E4F8-F3A5-4F81-A495-AA87C800B0F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

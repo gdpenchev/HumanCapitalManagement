@@ -1,0 +1,10 @@
+﻿@model LoginViewModel
+<form asp-action="Login" method="post">
+    <input asp-for="Username" placeholder="Username" />
+    <input asp-for="Password" placeholder="Password" type="password" />
+    <button type="submit">Login</button>
+</form>
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+    <p style="color:red">@ViewBag.Error</p>
+}

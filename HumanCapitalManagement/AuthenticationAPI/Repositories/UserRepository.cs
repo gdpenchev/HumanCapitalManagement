@@ -6,10 +6,15 @@ namespace AuthenticationAPI.Repositories
     {
         private readonly List<User> _users = new()
         {
-            new User { Id = 1, Username = "Pesho", Password = "12345", Role = "manager"},
-            new User { Id = 1, Username = "Ivan", Password = "12345", Role = "employee"},
-            new User { Id = 1, Username = "Maria", Password = "12345", Role = "hradmin"}
+            new User { Id = 1, Username = "Pesho", Firstname = "Petar", Lastname = "Petrov", Department = "Management", Position = "Manager", Password = "12345", Salary = 50000, Role = "manager"},
+            new User { Id = 1, Username = "Ivan",Firstname = "Ivan", Lastname = "Ivanov", Department = "IT", Position = "Dev", Password = "12345", Salary = 40000, Role = "employee"},
+            new User { Id = 1, Username = "Maria",Firstname = "Maria", Lastname = "Marieva", Department = "HR", Position = "LocalHR", Password = "12345", Salary = 30000, Role = "hradmin"}
         };
+
+        public IEnumerable<User> GetUsers()
+        {
+            return _users;
+        }
 
         public User ValidateUser(string username, string password)
         {

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<EmployeeViewModel>
+@{
+    var role = ViewBag.Role;
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th><th>Last Name</th><th>Position</th><th>Department</th>
+            @if (role =="hradmin")
+            {
+                <th>Salary</th>
+            }
+            @if (role == "manager" || role == "hradmin")
+            {
+                <th>Actions</th>
+            }
+        </tr>
+    </thead>
+
+   @foreach (var emp in Model)
+   {
+     <tr>
+         <td>@emp.FirstName</td>
+         <td>@emp.LastName</td>
+         <td>@emp.Position</td>
+         <td>@emp.Department</td>
+          @if (role == "hradmin")
+          {
+            <td>@emp.Salary</td>
+          }
+                @if (role == "manager" || role == "hradmin")
+                {
+                    <td>
+                    <a asp-controller="Employee" asp-action="Edit" asp-route-id="@emp.Id">Edit</a>
+                        @if(role == "hradmin")
+                        {
+                            <a asp-controller="Employee" asp-action="Delete" asp-route-id="@emp.Id">Delete</a>
+                        }
+                    </td>
+                }
+      </tr>
+   }
+</tbody>
+</table>
+@if (role =="manager" || role == "hradmin")
+{
+    <a asp-controller="Employee" asp-action="Create" class="btn btn-primary">Add Person</a>
+}

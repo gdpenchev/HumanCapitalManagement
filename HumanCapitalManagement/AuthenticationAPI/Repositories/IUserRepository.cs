@@ -5,5 +5,7 @@ namespace AuthenticationAPI.Repositories
     public interface IUserRepository
     {
         User ValidateUser(string username, string password);
+
+        IEnumerable<User> GetUsers();
     }
 }

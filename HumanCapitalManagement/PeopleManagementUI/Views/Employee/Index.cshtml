@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<EmployeeViewModel>
 @{
-    var role = ViewBag.Role;
+    var role = ViewData["UserRole"]?.ToString() ?? "employee";
 }
 
 <table class="table">

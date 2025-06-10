@@ -1,20 +1,31 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using PeopleManagementUI.Services;
 using System.IdentityModel.Tokens.Jwt;
 
 namespace PeopleManagementUI.Controllers
 {
+    /// <summary>
+    /// Base controller for shared functionality across controllers.
+    /// </summary>
     public class BaseController : Controller
     {
-        public override void OnActionExecuted(ActionExecutedContext context)
-        {
-            var token = HttpContext.Session.GetString("token");
-            var handler = new JwtSecurityTokenHandler();
-            var jwt = handler.ReadJwtToken(token);
-            var role = jwt.Claims.FirstOrDefault(c => c.Type == "role")?.Value ?? "employee";
-            ViewBag.Role = role;
+        protected readonly IUserContextService _userContextService;
 
-            base.OnActionExecuted(context);
+        public BaseController(IUserContextService userContextService)
+        {
+            _userContextService = userContextService;
+        }
+
+        /// <summary>
+        /// Gets the current user's role from the JWT token.
+        /// </summary>
+        protected string GetUserRole() => _userContextService.GetUserRole();
+
+        public override void OnActionExecuting(ActionExecutingContext context)
+        {
+            ViewData["UserRole"] = GetUserRole();
+            base.OnActionExecuting(context);
         }
     }
 }

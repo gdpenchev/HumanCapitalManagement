@@ -17,16 +17,27 @@ namespace AuthenticationAPI.Controllers
             _tokenService = tokenService;
             _userRepository = userRepository;
         }
-
+        /// <summary>
+        /// User validation and provides token
+        /// </summary>
         [HttpPost("login")]
         public IActionResult Login(LoginRequest loginRequest)
         {
-            if (loginRequest is null) return BadRequest("Login data is not full");
+            if (loginRequest is null) 
+            {
+                Console.WriteLine("Invalid login attempt: Missing login details.");
+                return BadRequest("Login data is not full");
+            } 
 
             var user = _userRepository.ValidateUser(loginRequest.Username, loginRequest.Password);
 
-            if (user == null) return Unauthorized();
+            if (user == null)
+            {
+                Console.WriteLine($"Failed login attempt for username: {loginRequest.Username}");
+                return Unauthorized();
+            }
 
+            Console.WriteLine($"Successful login for username: {loginRequest.Username}");
             var token = _tokenService.GenerateJwtToken(user);
 
             return Ok(new { token });

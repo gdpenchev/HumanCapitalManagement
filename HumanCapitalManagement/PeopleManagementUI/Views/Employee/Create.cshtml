@@ -1,6 +1,6 @@
 ﻿@model EmployeeViewModel
 @{
-    var role = ViewBag.Role;
+    var role = ViewData["UserRole"]?.ToString() ?? "employee";
 }
 
 <form asp-action="Create">

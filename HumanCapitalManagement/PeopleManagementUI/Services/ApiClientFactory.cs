@@ -2,6 +2,9 @@
 
 namespace PeopleManagementUI.Services
 {
+    /// <summary>
+    /// Factory for creating HTTP clients for API communication.
+    /// </summary>
     public class ApiClientFactory : IApiClientFactory
     {
         private readonly IHttpClientFactory _httpClientFactory;
@@ -14,14 +17,18 @@ namespace PeopleManagementUI.Services
             _httpContextAccessor = httpContextAccessor;
             _configuration = configuration;
         }
-
+        /// <summary>
+        /// Creates an HTTP client for the Authentication API.
+        /// </summary>
         public HttpClient CreateAuthenticationClient()
         {
             var client = _httpClientFactory.CreateClient("AuthenticationClient");
             client.BaseAddress = new Uri(_configuration["Endpoints:AuthenticationBase"]);
             return client;
         }
-
+        /// <summary>
+        /// Creates an HTTP client for the Employee API with JWT authorization.
+        /// </summary>
         public HttpClient CreateEmployeeClient()
         {
             var client = _httpClientFactory.CreateClient("EmployeeClient");

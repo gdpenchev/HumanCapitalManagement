@@ -2,7 +2,6 @@ using PeopleManagementUI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services.AddHttpClient();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -18,6 +17,7 @@ builder.Services.AddHttpClient("AuthenticationClient");
 builder.Services.AddHttpClient("EmployeeClient");
 
 builder.Services.AddScoped<IApiClientFactory, ApiClientFactory>();
+builder.Services.AddScoped<IUserContextService, UserContextService>();
 
 var app = builder.Build();
 
@@ -31,7 +31,6 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-//app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseSession();

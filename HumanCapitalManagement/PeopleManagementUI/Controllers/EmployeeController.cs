@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PeopleManagementUI.Models;
 using PeopleManagementUI.Services;
+using System.Security.Claims;
 using System.Text.Json;
 
 namespace PeopleManagementUI.Controllers
@@ -29,12 +30,10 @@ namespace PeopleManagementUI.Controllers
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine($"GetAllEmployees failed: {response.StatusCode}");
-                TempData["Error"] = "Unable to load employees. Please try again.";
                 return RedirectToAction("Login", "Authentication");
             }
 
             var employees = await response.Content.ReadFromJsonAsync<List<EmployeeViewModel>>();
-            //ViewData["UserRole"] = GetUserRole();
             return View(employees);
         }
         /// <summary>
@@ -42,7 +41,6 @@ namespace PeopleManagementUI.Controllers
         /// </summary>
         public IActionResult Create()
         {
-            //ViewData["UserRole"] = GetUserRole();
             return View(new EmployeeViewModel());
         }
         /// <summary>
@@ -54,7 +52,7 @@ namespace PeopleManagementUI.Controllers
             if (!ModelState.IsValid || string.IsNullOrWhiteSpace(employeeViewModel.FirstName) || string.IsNullOrWhiteSpace(employeeViewModel.LastName))
             {
                 Console.WriteLine("Create failed: Invalid employee data.");
-                TempData["Error"] = "FirstName and LastName are required.";
+                ViewBag.Error = "Create failed: Invalid employee data.";
                 return View(employeeViewModel);
             }
             var client = _apiClientFactory.CreateEmployeeClient();
@@ -64,7 +62,6 @@ namespace PeopleManagementUI.Controllers
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine($"Create failed: {response.StatusCode}");
-                TempData["Error"] = "Failed to create employee. Please try again.";
                 return View(employeeViewModel);
             }
 
@@ -77,18 +74,16 @@ namespace PeopleManagementUI.Controllers
         public async Task<IActionResult> Edit(int id)
         {
             var client = _apiClientFactory.CreateEmployeeClient();
-            var response = await client.GetAsync($"{_configuration["Endpoints:EmployeeGetById"]}/{id}");
+            var response = await client.GetAsync(_configuration["Endpoints:EmployeeGetById"].Replace("{id}", id.ToString()));
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine($"GetById failed: {response.StatusCode}");
-                TempData["Error"] = "Unable to load employee. Please try again.";
                 return RedirectToAction("Index");
             }
             var employee = await response.Content.ReadFromJsonAsync<EmployeeViewModel>();
             if (employee is null)
             {
                 Console.WriteLine($"GetById failed: Employee ID {id} not found.");
-                TempData["Error"] = $"Employee with ID {id} not found.";
                 return RedirectToAction("Index");
             }
 
@@ -103,17 +98,17 @@ namespace PeopleManagementUI.Controllers
             if (!ModelState.IsValid || string.IsNullOrWhiteSpace(employeeViewModel.FirstName) || string.IsNullOrWhiteSpace(employeeViewModel.LastName))
             {
                 Console.WriteLine("Edit failed: Invalid employee data.");
-                TempData["Error"] = "FirstName and LastName are required.";
+                ViewBag.Error = "Edit failed: Invalid employee data.";
                 return View(employeeViewModel);
             }
+
             var client = _apiClientFactory.CreateEmployeeClient();
             Console.WriteLine($"Updating employee: {JsonSerializer.Serialize(employeeViewModel)}");
 
-            var response = await client.PutAsJsonAsync($"{_configuration["Endpoints:EmployeeUpdate"]}/{employeeViewModel.Id}", employeeViewModel);
+            var response = await client.PutAsJsonAsync(_configuration["Endpoints:EmployeeUpdate"].Replace("{id}",employeeViewModel.Id.ToString()), employeeViewModel);
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine($"Edit failed: {response.StatusCode}");
-                TempData["Error"] = "Failed to update employee. Please try again.";
                 return View(employeeViewModel);
             }
 
@@ -126,11 +121,10 @@ namespace PeopleManagementUI.Controllers
         {
             var client = _apiClientFactory.CreateEmployeeClient();
             Console.WriteLine($"Deleting employee ID: {id}");
-            var response = await client.DeleteAsync($"{_configuration["Endpoints:EmployeeDelete"]}/{id}");
+            var response = await client.DeleteAsync(_configuration["Endpoints:EmployeeDelete"].Replace("{id}", id.ToString()));
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine($"Delete failed: {response.StatusCode}");
-                TempData["Error"] = "Failed to delete employee. Please try again.";
             }
 
             return RedirectToAction("Index");

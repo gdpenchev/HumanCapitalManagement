@@ -1,5 +1,4 @@
 ﻿using AuthenticationAPI.Models;
-using AuthenticationAPI.Repositories;
 using AuthenticationAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,10 +8,10 @@ namespace AuthenticationAPI.Controllers
     [Route("api/auth")]
     public class AuthenticationController : Controller
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IUserService _userRepository;
         private readonly ITokenService _tokenService;
 
-        public AuthenticationController(IUserRepository userRepository, ITokenService tokenService)
+        public AuthenticationController(IUserService userRepository, ITokenService tokenService)
         {
             _tokenService = tokenService;
             _userRepository = userRepository;
@@ -28,7 +27,7 @@ namespace AuthenticationAPI.Controllers
                 Console.WriteLine("Invalid login attempt: Missing login details.");
                 return BadRequest("Login data is not full");
             } 
-
+                
             var user = _userRepository.ValidateUser(loginRequest.Username, loginRequest.Password);
 
             if (user == null)

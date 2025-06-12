@@ -29,16 +29,8 @@ namespace EmployeeAPI.Controllers
                 return BadRequest(new { Message = "Employee data is required." });
             }
 
-            try
-            {
-                var createdEmployee = _employeeService.Create(employee);
-                return Ok(createdEmployee);
-            }
-            catch (ArgumentException ex)
-            {
-                Console.WriteLine($"Create failed: {ex.Message}");
-                return BadRequest(new { Message = ex.Message.ToString() });
-            }
+            var createdEmployee = _employeeService.Create(employee);
+            return Ok(createdEmployee);
 
         }
         /// <summary>
@@ -81,22 +73,14 @@ namespace EmployeeAPI.Controllers
 
             var role = User.FindFirst(ClaimTypes.Role)?.Value ?? "employee";
 
-            try
+            var updatedEmployee = _employeeService.Update(id, employee, role);
+            if (updatedEmployee is null)
             {
-                var updatedEmployee = _employeeService.Update(id, employee, role);
-                if (updatedEmployee is null)
-                {
-                    Console.WriteLine($"Update failed: Employee ID {id} not found.");
-                    return NotFound(new { Message = $"Employee with ID {id} not found." });
-                }
+                Console.WriteLine($"Update failed: Employee ID {id} not found.");
+                return NotFound(new { Message = $"Employee with ID {id} not found." });
+            }
 
-                return Ok(updatedEmployee);
-            }
-            catch (ArgumentException ex)
-            {
-                Console.WriteLine($"Update failed: {ex.Message}");
-                return BadRequest(new { Message = ex.Message.ToString() });
-            }
+            return Ok(updatedEmployee);
         }
         /// <summary>
         /// Deletes an employee by ID (HR Admin only).

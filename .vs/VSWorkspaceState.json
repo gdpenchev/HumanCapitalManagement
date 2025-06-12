@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\HumanCapitalManagement",
-    "\\HumanCapitalManagement\\EmployeeAPI"
+    "\\HumanCapitalManagement\\EmployeeAPI.Tests.Integration",
+    "\\HumanCapitalManagement\\PeopleManagementUI.Tests",
+    "\\HumanCapitalManagement\\PeopleManagementUI.Tests\\Controllers"
   ],
-  "SelectedNode": "\\HumanCapitalManagement\\HumanCapitalManagement.sln",
+  "SelectedNode": "\\HumanCapitalManagement\\EmployeeAPI.Tests.Integration\\EmployeeApiTests.cs",
   "PreviewInSolutionExplorer": false
 }

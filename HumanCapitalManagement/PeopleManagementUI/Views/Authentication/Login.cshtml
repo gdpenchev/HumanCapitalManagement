@@ -1,4 +1,9 @@
 ﻿@model LoginViewModel
+<header>
+    <h2>
+        Please enter credentials
+    </h2>
+</header>
 <form asp-action="Login" method="post">
     <input asp-for="Username" placeholder="Username" />
     <input asp-for="Password" placeholder="Password" type="password" />

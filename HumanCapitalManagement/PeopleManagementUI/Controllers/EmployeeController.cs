@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PeopleManagementUI.Models;
 using PeopleManagementUI.Services;
-using System.Security.Claims;
 using System.Text.Json;
 
 namespace PeopleManagementUI.Controllers

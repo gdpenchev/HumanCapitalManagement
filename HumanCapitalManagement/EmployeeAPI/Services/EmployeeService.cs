@@ -10,6 +10,9 @@ namespace EmployeeAPI.Services
             new Employee { Id = 2, FirstName = "Ivan", LastName = "Ivanov", Department = "IT", Position = "Dev", Salary = 40000},
             new Employee { Id = 3, FirstName = "Gloria", LastName = "Ivanova", Department = "Sales", Position = "Account Manager", Salary = 30000}
         };
+        /// <summary>
+        /// Creates an employee and returns it.
+        /// </summary>
         public Employee Create(Employee employee)
         {
             employee.Id = _employees.Any() ? _employees.Max(e => e.Id) + 1 : 1;
@@ -17,7 +20,9 @@ namespace EmployeeAPI.Services
             Console.WriteLine($"Created employee: {employee.FirstName} {employee.LastName} (ID: {employee.Id})");
             return employee;
         }
-
+        /// <summary>
+        /// Finds and deletes employee, returns true if success else returns false
+        /// </summary>
         public bool Delete(int employeeId)
         {
             var employee = _employees.FirstOrDefault(em => em.Id == employeeId);
@@ -31,9 +36,13 @@ namespace EmployeeAPI.Services
             Console.WriteLine($"Deleted employee: {employee.FirstName} {employee.LastName} (ID: {employeeId})");
             return true;
         }
-
+        /// <summary>
+        /// Returns all employees.
+        /// </summary>
         public IEnumerable<Employee> GetAllEmployees() => _employees;
-
+        /// <summary>
+        /// Returns employee by ID.
+        /// </summary>
         public Employee GetById(int id)
         {
             var employee = _employees.FirstOrDefault(emp => emp.Id == id);
@@ -43,7 +52,9 @@ namespace EmployeeAPI.Services
             }
             return employee;
         }
-
+        /// <summary>
+        /// Updates employee by Id, only hr manager can update salary.
+        /// </summary>
         public Employee Update(int employeeId, Employee updatedEmployee, string role)
         {
             var employee = _employees.FirstOrDefault(em => em.Id == employeeId);

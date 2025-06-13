@@ -10,7 +10,9 @@ namespace AuthenticationAPI.Services
             new User { Username = "Ivan", Password = "12345", Role = "employee"},
             new User { Username = "Maria", Password = "12345", Role = "hradmin"}
         };
-            
+        /// <summary>
+        /// Validates if usere is set with roles (only those are available currently).
+        /// </summary>
         public User ValidateUser(string username, string password)
         {
             return _users.FirstOrDefault(u => u.Username == username && u.Password == password);

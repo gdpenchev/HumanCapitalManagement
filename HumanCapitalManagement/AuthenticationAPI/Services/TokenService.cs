@@ -13,7 +13,9 @@ namespace AuthenticationAPI.Services
         {
             _secretKey = configuration["Jwt:Key"];
         }
-
+        /// <summary>
+        /// Generates Jwt token with claims Name and Role
+        /// </summary>
         public string GenerateJwtToken(User user)
         {
             var claims = new List<Claim>

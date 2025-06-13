@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using PeopleManagementUI.Services;
-using System.IdentityModel.Tokens.Jwt;
 
 namespace PeopleManagementUI.Controllers
 {

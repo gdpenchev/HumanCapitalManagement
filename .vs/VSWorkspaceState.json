@@ -3,9 +3,13 @@
     "",
     "\\HumanCapitalManagement",
     "\\HumanCapitalManagement\\EmployeeAPI.Tests.Integration",
+    "\\HumanCapitalManagement\\PeopleManagementUI",
     "\\HumanCapitalManagement\\PeopleManagementUI.Tests",
-    "\\HumanCapitalManagement\\PeopleManagementUI.Tests\\Controllers"
+    "\\HumanCapitalManagement\\PeopleManagementUI.Tests\\Controllers",
+    "\\HumanCapitalManagement\\PeopleManagementUI\\Controllers",
+    "\\HumanCapitalManagement\\PeopleManagementUI\\Views",
+    "\\HumanCapitalManagement\\PeopleManagementUI\\Views\\Shared"
   ],
-  "SelectedNode": "\\HumanCapitalManagement\\EmployeeAPI.Tests.Integration\\EmployeeApiTests.cs",
+  "SelectedNode": "\\HumanCapitalManagement\\PeopleManagementUI\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
